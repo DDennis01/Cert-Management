@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>valid_from</field>
+        <global>true</global>
+        <messages/>
+        <name>Valid from onChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	var t_start = g_form.getValue('valid_from');
+	var t_end = g_form.getValue('valid_to');
+	
+	var ga = new GlideAjax('AjaxCertUtil');
+	ga.addParam('sysparm_name', 'getDateDiff');
+	ga.addParam('date_1', t_start);
+	ga.addParam('date_2', t_end);
+	ga.getXML(HelloWorldParse);
+	
+	function HelloWorldParse(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		//alert(answer);
+		if (answer!=null) 		{
+			g_form.setValue('validity_period', answer);
+		}
+		else 		{
+			g_form.setValue('validity_period', "*** Invalid ***");
+		}
+	}
+	
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>S32191</sys_created_by>
+        <sys_created_on>2017-11-17 16:45:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c68fff2013ea83009e55b7f66144b0f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Valid from onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
+        <sys_update_name>sys_script_client_c68fff2013ea83009e55b7f66144b0f3</sys_update_name>
+        <sys_updated_by>S32191</sys_updated_by>
+        <sys_updated_on>2017-11-17 16:45:51</sys_updated_on>
+        <table>x_arps_aps_certifi_aps_certificate_management_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

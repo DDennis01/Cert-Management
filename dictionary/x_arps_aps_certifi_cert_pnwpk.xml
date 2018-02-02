@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="CERT PNWPK" max_length="40" name="x_arps_aps_certifi_cert_pnwpk" type="collection">
+        <element attributes="import_attribute_name=!Asset tag,edge_encryption_enabled=true" label="!Asset tag" max_length="40" name="u__asset_tag" type="string"/>
+        <element attributes="import_attribute_name=!Name,edge_encryption_enabled=true" label="!Name" max_length="40" name="u__name" type="string"/>
+        <element attributes="import_attribute_name=!Valid to Date" label="!Valid to Date" max_length="40" name="u__valid_to_date" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci" label="APS Certificate Management Table" max_length="40" name="x_arps_aps_certifi_aps_certificate_management_table" type="collection">
+        <element label="Automatic Renewal" max_length="40" name="automatic_renewal" type="boolean"/>
+        <element choice="1" label="Cert Extension Format" mandatory="true" max_length="40" name="cert_extension_format" type="choice">
+            <choice>
+                <element label="PFX" sequence="0" value="PFX"/>
+                <element label="CER" sequence="1" value="CER"/>
+                <element label="JKS" sequence="2" value="JKS"/>
+                <element label="PEM" sequence="3" value="PEM"/>
+                <element label="OTHER" sequence="4" value="OTHER"/>
+            </choice>
+        </element>
+        <element label="Cert Extension (Other)" max_length="100" name="cert_extension_other" type="string"/>
+        <element label="Cert Install Group" mandatory="true" max_length="32" name="cert_install_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Cert Type" mandatory="true" max_length="40" name="cert_type" type="choice">
+            <choice>
+                <element label="PNW" value="PNW"/>
+                <element label="Symantec" value="Symantec"/>
+            </choice>
+        </element>
+        <element label="Cert Validation Group" mandatory="true" max_length="32" name="cert_validation_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Expiration Frequency" mandatory="true" max_length="40" name="expiration_frequency" type="choice">
+            <choice>
+                <element label="1 yr" value="1 yr"/>
+                <element label="2 yr" value="2 yr"/>
+                <element label="3 yr" value="3 yr"/>
+                <element label="4 yr" value="4 yr"/>
+                <element label="5 yr" value="5 yr"/>
+            </choice>
+        </element>
+        <element choice="1" label="Server Type" mandatory="true" max_length="40" name="server_type" type="choice">
+            <choice>
+                <element label="Apache" sequence="0" value="Apache"/>
+                <element label="Weblogic" sequence="1" value="Weblogic"/>
+                <element label="Microsoft" sequence="2" value="Microsoft"/>
+                <element label="BEA" sequence="3" value="BEA"/>
+                <element label="OTHER" sequence="4" value="OTHER"/>
+            </choice>
+        </element>
+        <element label="Server Type (Other)" max_length="100" name="server_type_other" type="string"/>
+        <element label="Validity Period" max_length="40" name="validity_period" type="string"/>
+        <element label="Valid From" mandatory="true" max_length="40" name="valid_from" type="glide_date"/>
+        <element label="Valid To" mandatory="true" max_length="40" name="valid_to" type="glide_date"/>
+        <index name="index">
+            <element name="cert_validation_group"/>
+        </index>
+        <index name="index2">
+            <element name="cert_install_group"/>
+        </index>
+    </element>
+</database>

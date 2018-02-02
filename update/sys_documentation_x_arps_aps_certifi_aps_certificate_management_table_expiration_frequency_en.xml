@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="expiration_frequency" label="Expiration Frequency" language="en" table="x_arps_aps_certifi_aps_certificate_management_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>expiration_frequency</element>
+            <help/>
+            <hint/>
+            <label>Expiration Frequency</label>
+            <language>en</language>
+            <name>x_arps_aps_certifi_aps_certificate_management_table</name>
+            <plural>Expiration Frequencies</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 20:18:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>27f6ab1c13ea43009e55b7f66144b0dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Expiration Frequency</sys_name>
+            <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
+            <sys_update_name>sys_documentation_x_arps_aps_certifi_aps_certificate_management_table_expiration_frequency_en</sys_update_name>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 20:18:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

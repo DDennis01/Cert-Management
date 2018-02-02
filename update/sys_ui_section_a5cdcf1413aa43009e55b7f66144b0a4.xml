@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Comments" section_id="a5cdcf1413aa43009e55b7f66144b0a4" sys_domain="global" table="x_arps_aps_certifi_aps_certificate_management_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>46cdcf1413aa43009e55b7f66144b0cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comments" display_value="Comments" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">a5cdcf1413aa43009e55b7f66144b0a4</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Comments</caption>
+            <header>false</header>
+            <name>x_arps_aps_certifi_aps_certificate_management_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:20</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a5cdcf1413aa43009e55b7f66144b0a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comments</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
+            <sys_update_name>sys_ui_section_a5cdcf1413aa43009e55b7f66144b0a4</sys_update_name>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

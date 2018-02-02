@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Certificate Management">190fe236133acf009e55b7f66144b079</catalog_item>
+        <catalog_variable>IO:d18e763e133acf009e55b7f66144b0d0</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>S32191</sys_created_by>
+        <sys_created_on>2017-12-07 16:14:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>db987a0f137203409e55b7f66144b0e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>charge_number</sys_name>
+        <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_db987a0f137203409e55b7f66144b0e1</sys_update_name>
+        <sys_updated_by>S32191</sys_updated_by>
+        <sys_updated_on>2017-12-07 16:14:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Request Type  - New">4c7d0376137acf009e55b7f66144b0d6</ui_policy>
+        <variable>charge_number</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

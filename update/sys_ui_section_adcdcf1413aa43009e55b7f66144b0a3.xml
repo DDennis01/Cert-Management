@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Financial" section_id="adcdcf1413aa43009e55b7f66144b0a3" sys_domain="global" table="x_arps_aps_certifi_aps_certificate_management_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>0</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>42cdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service</element>
+            <position>1</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>c2cdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_charge_number</element>
+            <position>2</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>46cdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_department_number</element>
+            <position>3</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>c6cdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_warranty_start_date</element>
+            <position>4</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>4acdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_warranty_end_date</element>
+            <position>5</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>cacdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_warranty_duration</element>
+            <position>6</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>4ecdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>cecdcf1413aa43009e55b7f66144b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_in_service_date</element>
+            <position>8</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>cecdcf1413aa43009e55b7f66144b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_purchase_or_lease</element>
+            <position>9</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>42cdcf1413aa43009e55b7f66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_number</element>
+            <position>10</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>c2cdcf1413aa43009e55b7f66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_purchase_cost</element>
+            <position>11</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>46cdcf1413aa43009e55b7f66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lease_payment_amount</element>
+            <position>12</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>c6cdcf1413aa43009e55b7f66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lease_start_date</element>
+            <position>13</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>4acdcf1413aa43009e55b7f66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lease_end_date</element>
+            <position>14</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>cacdcf1413aa43009e55b7f66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lease_duration</element>
+            <position>15</position>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:22</sys_created_on>
+            <sys_id>4ecdcf1413aa43009e55b7f66144b0c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_arps_aps_certifi_aps_certificate_management_table" sys_domain="global" view="Default view">adcdcf1413aa43009e55b7f66144b0a3</sys_ui_section>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financial</caption>
+            <header>false</header>
+            <name>x_arps_aps_certifi_aps_certificate_management_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2017-11-16 18:28:20</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>adcdcf1413aa43009e55b7f66144b0a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Financial</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
+            <sys_update_name>sys_ui_section_adcdcf1413aa43009e55b7f66144b0a3</sys_update_name>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2017-11-16 18:28:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
