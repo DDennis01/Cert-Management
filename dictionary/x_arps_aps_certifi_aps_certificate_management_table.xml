@@ -20,7 +20,7 @@
             </choice>
         </element>
         <element label="Cert Validation Group" mandatory="true" max_length="32" name="cert_validation_group" reference="sys_user_group" type="reference"/>
-        <element choice="1" label="Expiration Frequency" mandatory="true" max_length="40" name="expiration_frequency" type="choice">
+        <element choice="1" label="Expiration Frequency" max_length="40" name="expiration_frequency" type="choice">
             <choice>
                 <element label="1 yr" value="1 yr"/>
                 <element label="2 yr" value="2 yr"/>
@@ -39,14 +39,8 @@
             </choice>
         </element>
         <element label="Server Type (Other)" max_length="100" name="server_type_other" type="string"/>
-        <element label="Validity Period" max_length="40" name="validity_period" type="string"/>
+        <element label="Validity Period" max_length="40" name="validity_period" read_only="true" type="string"/>
         <element label="Valid From" mandatory="true" max_length="40" name="valid_from" type="glide_date"/>
         <element label="Valid To" mandatory="true" max_length="40" name="valid_to" type="glide_date"/>
-        <index name="index">
-            <element name="cert_validation_group"/>
-        </index>
-        <index name="index2">
-            <element name="cert_install_group"/>
-        </index>
     </element>
 </database>

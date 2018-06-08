@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u__usage" label="!usage" language="en" table="x_arps_aps_certifi_certificate_management_full">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u__usage</element>
+            <help/>
+            <hint/>
+            <label>!usage</label>
+            <language>en</language>
+            <name>x_arps_aps_certifi_certificate_management_full</name>
+            <plural>!usages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>S32191</sys_created_by>
+            <sys_created_on>2018-06-08 16:04:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3b21dd4613a6d340f3afb7f66144b03a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>!usage</sys_name>
+            <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
+            <sys_update_name>sys_documentation_x_arps_aps_certifi_certificate_management_full_u__usage_en</sys_update_name>
+            <sys_updated_by>S32191</sys_updated_by>
+            <sys_updated_on>2018-06-08 16:04:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

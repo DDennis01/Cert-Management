@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Certificate Management v3" max_length="40" name="x_arps_aps_certifi_certificate_management_v3" type="collection">
+        <element attributes="import_attribute_name=!Approval group,edge_encryption_enabled=true" label="!Approval group" max_length="40" name="u__approval_group" type="string"/>
+        <element attributes="import_attribute_name=!asset tag,edge_encryption_enabled=true" label="!asset tag" max_length="40" name="u__asset_tag" type="string"/>
+        <element attributes="import_attribute_name=!Cert Extension Format,edge_encryption_enabled=true" label="!Cert Extension Format" max_length="40" name="u__cert_extension_format" type="string"/>
+        <element attributes="import_attribute_name=!Cert Install Group,edge_encryption_enabled=true" label="!Cert Install Group" max_length="40" name="u__cert_install_group" type="string"/>
+        <element attributes="import_attribute_name=!Cert Validation Group,edge_encryption_enabled=true" label="!Cert Validation Group" max_length="40" name="u__cert_validation_group" type="string"/>
+        <element attributes="import_attribute_name=!CI Category,edge_encryption_enabled=true" label="!CI Category" max_length="40" name="u__ci_category" type="string"/>
+        <element attributes="import_attribute_name=!mnaged,edge_encryption_enabled=true" label="!mnaged" max_length="40" name="u__mnaged" type="string"/>
+        <element attributes="import_attribute_name=!name,edge_encryption_enabled=true" label="!name" max_length="40" name="u__name" type="string"/>
+        <element attributes="import_attribute_name=!owner,edge_encryption_enabled=true" label="!owner" max_length="40" name="u__owner" type="string"/>
+        <element attributes="import_attribute_name=!Server Type,edge_encryption_enabled=true" label="!Server Type" max_length="40" name="u__server_type" type="string"/>
+        <element attributes="import_attribute_name=!status" label="!status" max_length="40" name="u__status" type="integer"/>
+        <element attributes="import_attribute_name=!Support group,edge_encryption_enabled=true" label="!Support group" max_length="40" name="u__support_group" type="string"/>
+        <element attributes="import_attribute_name=!usage" label="!usage" max_length="40" name="u__usage" type="integer"/>
+        <element attributes="import_attribute_name=!valid From" label="!valid From" max_length="40" name="u__valid_from" type="glide_date"/>
+        <element attributes="import_attribute_name=!valid to" label="!valid to" max_length="40" name="u__valid_to" type="glide_date"/>
+    </element>
+</database>

@@ -5,6 +5,7 @@
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license_model>none</license_model>
         <logo/>
         <menu display_value="Certificate Management">00defa94136a43009e55b7f66144b0f9</menu>
         <name>APS Certificate Management</name>
@@ -22,14 +23,14 @@
         <sys_created_by>S32191</sys_created_by>
         <sys_created_on>2017-11-16 17:22:58</sys_created_on>
         <sys_id>77ce3a14136a43009e55b7f66144b08b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>S32191</sys_updated_by>
-        <sys_updated_on>2018-02-01 22:34:10</sys_updated_on>
+        <sys_updated_on>2018-04-20 17:57:34</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_arps_aps_certifi.user" name="x_arps_aps_certifi.user">c8defa94136a43009e55b7f66144b0f9</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
 </record_update>

@@ -6,6 +6,7 @@
         <applies_extended>false</applies_extended>
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
         <applies_to>set</applies_to>
         <cat_item/>
         <cat_variable>IO:966e323e133acf009e55b7f66144b08e</cat_variable>

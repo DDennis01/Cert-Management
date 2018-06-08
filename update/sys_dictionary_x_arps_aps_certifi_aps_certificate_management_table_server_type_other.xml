@@ -3,6 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="server_type_other" table="x_arps_aps_certifi_aps_certificate_management_table">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {
@@ -52,7 +53,7 @@
         <sys_created_by>S32191</sys_created_by>
         <sys_created_on>2017-11-16 20:09:34</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>52d46b9813ea43009e55b7f66144b003</sys_id>
+        <sys_id>5fee094213a6d340f3afb7f66144b01b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Server Type (Other)</sys_name>
         <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
@@ -60,8 +61,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
         <sys_update_name>sys_dictionary_x_arps_aps_certifi_aps_certificate_management_table_server_type_other</sys_update_name>
-        <sys_updated_by>S32191</sys_updated_by>
-        <sys_updated_on>2017-11-16 20:09:34</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-08 15:54:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

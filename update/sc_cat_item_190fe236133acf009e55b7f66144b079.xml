@@ -14,7 +14,7 @@
         <entitlement_script/>
         <group/>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <list_price>0</list_price>
         <location/>
@@ -34,7 +34,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("./com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=190fe236133acf009e55b7f66144b079&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=190fe236133acf009e55b7f66144b079&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
@@ -43,13 +43,14 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <short_description>Certificate Management</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>S32191</sys_created_by>
         <sys_created_on>2017-12-06 20:55:36</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>190fe236133acf009e55b7f66144b079</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Certificate Management</sys_name>
         <sys_package display_value="APS Certificate Management" source="x_arps_aps_certifi">77ce3a14136a43009e55b7f66144b08b</sys_package>
         <sys_policy/>
@@ -57,7 +58,7 @@
         <sys_scope display_value="APS Certificate Management">77ce3a14136a43009e55b7f66144b08b</sys_scope>
         <sys_update_name>sc_cat_item_190fe236133acf009e55b7f66144b079</sys_update_name>
         <sys_updated_by>S32191</sys_updated_by>
-        <sys_updated_on>2017-12-06 20:55:36</sys_updated_on>
+        <sys_updated_on>2018-04-20 15:34:18</sys_updated_on>
         <template/>
         <type>item</type>
         <u_approval_model/>
@@ -68,7 +69,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow/>
+        <workflow display_value="APS Certificate Management">db8b6ce713fa03409e55b7f66144b09a</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=190fe236133acf009e55b7f66144b079"/>
     <fx_price action="delete_multiple" query="id=190fe236133acf009e55b7f66144b079"/>

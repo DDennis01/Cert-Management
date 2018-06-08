@@ -18,7 +18,9 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Configuration Item" name="cmdb_ci">c50e671338e0e5405de6e74809672783</super_class>
+        <sys_class_code>#`</sys_class_code>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path>/!!/#`</sys_class_path>
         <sys_created_by>S32191</sys_created_by>
         <sys_created_on>2017-11-16 17:23:00</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
