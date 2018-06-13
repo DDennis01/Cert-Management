@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="sys_import_set_row" label="Cert management correct asset tag" max_length="40" name="x_arps_aps_certifi_cert_management_correct_asset_tag" type="collection">
-        <element attributes="import_attribute_name=!asset tag,edge_encryption_enabled=true" label="!asset tag" max_length="40" name="u__asset_tag" type="string"/>
-        <element attributes="import_attribute_name=!name,edge_encryption_enabled=true" label="!name" max_length="40" name="u__name" type="string"/>
-    </element>
-</database>
